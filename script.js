@@ -15,7 +15,7 @@ container1.appendChild(img1);
 // low cortisol
 const btn = document.getElementById("btn");
 const needle = document.querySelector("#needle img");
-const audio = new Audio('audio/lowcortisol100%.mp3');
+const audio = new Audio('audio/lowcortisol.mp3');
 
 let currentRotation = 0;
 
