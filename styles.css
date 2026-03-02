@@ -1,0 +1,59 @@
+#gauge-container {
+    position: relative;
+    width: 350px;  
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#meter img, #needle img {
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#needle img {
+    z-index: 10;
+    mix-blend-mode: multiply;
+    transform-origin: 50% 55% !important;
+    transition: transform 1.5s ease-in-out;
+    translate: rotate(90deg);
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    position: relative;
+    margin-top: 150px;
+}
+
+#btn {
+    background-color: green;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+    background-color: darkgreen;
+}
+
+#btnh {
+    background-color: red;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 03.s ease;
+}
+
+#btnh:hover {
+    background-color: darkred;
+}
