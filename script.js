@@ -22,9 +22,7 @@ let currentRotation = 0;
 function playSound(src) {
     const sound = new Audio(src);
     sound.preload = "auto";
-    sound.play().catch((err) => {
-        console.error(`couldn't play ${src}:`, err);
-    });
+    sound.play()
 }
 
 btn.addEventListener("click", () => {
